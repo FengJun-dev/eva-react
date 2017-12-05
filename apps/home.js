@@ -1,18 +1,14 @@
 import React from 'react';
 
 
-const Home = React.createClass({
-
+class Home extends Component{
     render() {
         return(
             <div>
-                HOME
-                <div>
-
-                </div>
+                <p>HOME</p>
             </div>
         );
     }
-});
+};
 
 export default Home;
