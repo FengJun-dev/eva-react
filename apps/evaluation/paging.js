@@ -30,8 +30,7 @@ class Paging extends Component {
             data : data,
             success:function(response,stutas,xhr){
                 // console.log(JSON.parse(response));
-                console.log('原生ajax');
-                var responseData = JSON.parse(response);
+                const responseData = JSON.parse(response);
                 this.setState({
                     data:responseData.page.page_result,
                     pageCount:responseData.page.count
