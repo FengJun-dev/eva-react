@@ -1,6 +1,6 @@
 import React from 'react';
-import {Route, Switch, Redirect, Link, NavLink, withRouter} from 'react-router-dom';
-import {Navbar, MenuItem, NavItem, Nav} from 'react-bootstrap';
+// import {Route, Switch, Redirect, Link, NavLink, withRouter} from 'react-router-dom';
+import {Navbar, MenuItem, NavItem, Nav, NavDropdown} from 'react-bootstrap';
 
 
 class App extends React.Component {
@@ -27,12 +27,12 @@ class App extends React.Component {
                         <NavItem eventKey={4} href="/movie">
                             Movie
                         </NavItem>
-                        <NavDropDown eventKey={5} title="More" id="basic-nav-dropdown">
+                        <NavDropdown eventKey={5} title="More" id="basic-nav-dropdown">
                             <MenuItem eventKey={5.1}>Learning</MenuItem>
                             <MenuItem eventKey={5.2}>hello</MenuItem>
                             <MenuItem divider />
                             <MenuItem eventKey={5.3}>world</MenuItem>
-                        </NavDropDown>
+                        </NavDropdown>
                     </Nav>
                     <Nav pullRight>
                         <NavItem eventKey={1} href="/account/signup">

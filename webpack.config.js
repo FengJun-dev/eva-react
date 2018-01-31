@@ -1,12 +1,12 @@
 const path = require('path');
-// const webpack = require('webpack');
+const webpack = require('webpack');
 
 const config = {
     context: path.resolve(__dirname),
     entry: path.resolve(__dirname, 'src', 'js', 'index.js'),
     output:{
         path: path.resolve(__dirname, 'build'),
-        filename:'[name].js',
+        filename:'bundle.js',
     },
     resolve: {
         extensions: ['.js', '.jsx', '.json'],
@@ -17,7 +17,7 @@ const config = {
     },
     devServer:{
         inline:true,
-        port:8000
+        port:8080
     },
     module:{
         loaders:[{
