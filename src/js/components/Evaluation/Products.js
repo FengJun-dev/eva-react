@@ -3,7 +3,14 @@ import React from 'react';
 
 // const data = {};
 const products = [
-    {productname: '1', productcontent: 'hello world', producttime: 'October'}
+    {
+        productname: '1',
+        productcontent: 'hello world',
+        producttime: 'October',
+        productprice:'$10',
+        productcategory:'food',
+        productintroduction:'cho',
+    }
 
 ];
 
@@ -13,9 +20,12 @@ class Product extends React.Component {
         const {product} = this.props;
         return (
             <div>
-                <div>product name: {product.productname}</div>
-                <div>product content: {product.productcontent}</div>
-                <div>product time: {product.producttime}</div>
+                <h2>{product.productcategory}</h2>
+                <a className={products.category + "-title"} href="#">
+                    <h3>{product.productname}</h3>>
+                    <h4>{product.productcontent}</h4>
+                    <span>{product.productprice}</span>
+                </a>
             </div>
         )
     }
@@ -33,4 +43,4 @@ class ProductList extends React.Component {
 }
 
 
-export default ProductList;
+export {ProductList};

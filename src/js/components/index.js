@@ -1,9 +1,10 @@
 import React from 'react';
 // import {Route, Switch, Redirect, Link, NavLink, withRouter} from 'react-router-dom';
 import {Navbar, MenuItem, NavItem, Nav, NavDropdown} from 'react-bootstrap';
+// import {Link, Route}  from 'react-router-dom';
+import {ProductList} from './Evaluation/Products';
 
-
-class App extends React.Component {
+class Navgation extends React.Component {
     render() {
         return (
             <Navbar inverse collapseOnSelect>
@@ -45,6 +46,17 @@ class App extends React.Component {
                 </Navbar.Collapse>
             </Navbar>
         );
+    }
+}
+
+class App extends React.Component {
+    render() {
+        return (
+            <div>
+                <Navgation />
+                <ProductList />
+            </div>
+        )
     }
 }
 
