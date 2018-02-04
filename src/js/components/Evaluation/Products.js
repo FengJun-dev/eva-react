@@ -36,7 +36,7 @@ class ProductList extends React.Component {
     render() {
         return (
             <div className="product-list">
-                {products.map((product, i) => <Product key={i} product={product} />)}
+                {products.map((product, i) => <Product key={product.id} product={product} />)}
             </div>
         )
     }
