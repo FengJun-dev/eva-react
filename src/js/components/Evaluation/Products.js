@@ -21,7 +21,7 @@ class Product extends React.Component {
         return (
             <div>
                 <h2>{product.productcategory}</h2>
-                <a className={products.category + "-title"} href="#">
+                <a className={products.category + "-title"} href="/detail">
                     <h3>{product.productname}</h3>>
                     <h4>{product.productcontent}</h4>
                     <span>{product.productprice}</span>

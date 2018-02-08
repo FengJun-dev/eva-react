@@ -3,6 +3,8 @@ import React from 'react';
 import {Navbar, MenuItem, NavItem, Nav, NavDropdown} from 'react-bootstrap';
 // import {Link, Route}  from 'react-router-dom';
 import {ProductList} from './Evaluation/Products';
+import Account from './Account';
+
 
 class Navgation extends React.Component {
     render() {
@@ -55,6 +57,7 @@ class App extends React.Component {
             <div>
                 <Navgation />
                 <ProductList />
+                <Account />
             </div>
         )
     }

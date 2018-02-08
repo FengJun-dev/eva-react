@@ -1,7 +1,7 @@
 import React from 'react';
 import Login from './login';
 import Signup from './signup';
-
+import {Switch, Route} from 'react-router-dom'
 
 export default class Account extends React.Component {
     render() {

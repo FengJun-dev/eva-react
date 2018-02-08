@@ -38,7 +38,8 @@ class Signup extends React.Component {
 
     render() {
         return (
-            <SignupForm />
+            <SignupForm user={data}/>
+
         )
     }
 }
