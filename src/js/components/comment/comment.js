@@ -35,7 +35,7 @@ class CommentList extends React.Component {
     }
 }
 
-const CommentListWithSubscription = withSubscription(
+/* const CommentListWithSubscription = withSubscription(
     CommentList,
     (DataSource) => DataSource.getComments()
-);
+);*/

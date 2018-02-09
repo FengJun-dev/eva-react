@@ -30,7 +30,10 @@ class CatHead extends React.Component {
     render() {
         return (
             <div>
+                <div className="cat-title">
+
                 <CatTag cattag={cattag}/>
+                <a href=
             </div>
 
         )
