@@ -2,7 +2,7 @@ import React from 'react';
 // import {Route, Switch, Redirect, Link, NavLink, withRouter} from 'react-router-dom';
 import {Navbar, MenuItem, NavItem, Nav, NavDropdown} from 'react-bootstrap';
 // import {Link, Route}  from 'react-router-dom';
-import {ProductList} from './Evaluation/Products';
+import {ProductList} from './Products/IndexPageProductsContent';
 import Account from './Account';
 
 

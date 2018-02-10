@@ -1,6 +1,6 @@
 import React from 'react';
 import SearchBar from './searchbar';
-
+import ProductTable from './item';
 
 class FilterableProductItem extends React.Component {
     constructor(props) {

@@ -44,7 +44,7 @@ class SearchBar extends React.Component {
 
 
 const Items = [
-    {main_category: 'food',category:"hot pot", price: '10.99', stocked: true, name: 'ticket', title:'haha'},
+    {main_category: 'food', sub_category:"hot pot", price: '10.99', stocked: true, name: 'ticket', title:'haha'},
 ];
 
 
