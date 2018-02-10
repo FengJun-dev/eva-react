@@ -16,10 +16,12 @@ const Products = {
     }
 };
 
+
 const Category = {
     'food':  ['hot pot','haha'],
     'film': ['comedy', 'tur']
 };
+
 
 class IndexProducts extends React.Component {
     constructor(props) {
@@ -35,3 +37,26 @@ class IndexProducts extends React.Component {
         )
     }
 }
+
+class IndexProductsList extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
+    render() {
+        const Category = this.props;
+        const cat_list = [];
+        for (const cat in Category) {
+            const sub_cat = Category[cat];
+            cat_list.push(sub_cat);
+        }
+        return (
+            <div>
+                {cat_list.map((sub_cat_list) =>
+                    <IndexProducts sub_cat_list={sub_cat_list} />)}
+            </div>
+        )
+    }
+}
+
+export default IndexProductsList;
