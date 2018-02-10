@@ -53,6 +53,7 @@ class IndexProductList extends React.Component {
     }
 
     render() {
+        const Products = this.props;
         return (
             <div className="product-content">
                 {Products.map((product, i) =>
