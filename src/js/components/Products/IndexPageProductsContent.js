@@ -2,19 +2,6 @@ import React from 'react';
 // import {ListGroup, ListGroupItem} from 'react-bootstrap'
 
 // const data = {};
-const Products = {
-    first_product: {
-        main_category: 'food',
-        sub_category: "hot pot",
-        average_price: '10.99',
-        stocked: true,
-        name: 'hh',
-        title: 'haha',
-        region: "Guangzhou",
-        comment: ""
-    }
-};
-
 
 class IndexProduct extends React.Component {
     constructor(props) {
