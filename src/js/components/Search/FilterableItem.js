@@ -45,3 +45,5 @@ class FilterableProductItem extends React.Component {
     }
 }
 
+export default FilterableProductItem;
+
