@@ -59,4 +59,6 @@ class IndexProductsList extends React.Component {
     }
 }
 
+
+
 export default IndexProductsList;

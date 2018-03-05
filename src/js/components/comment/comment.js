@@ -39,3 +39,5 @@ class CommentList extends React.Component {
     CommentList,
     (DataSource) => DataSource.getComments()
 );*/
+
+export default CommentList;
