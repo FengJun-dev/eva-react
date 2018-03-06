@@ -38,7 +38,7 @@ class IndexProducts extends React.Component {
     }
 }
 
-class IndexProductsList extends React.Component {
+class IndexProductsShown extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -60,5 +60,4 @@ class IndexProductsList extends React.Component {
 }
 
 
-
-export default IndexProductsList;
+export default IndexProductsShown;

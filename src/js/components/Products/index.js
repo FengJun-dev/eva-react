@@ -1,2 +1,4 @@
 import React from 'react';
-import
+import IndexProductsShown from 'IndexPageProducts';
+
+export IndexProductsShown;
