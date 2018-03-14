@@ -4,6 +4,7 @@ import { Form, FormGroup, FormControl, Col, ControlLabel, Checkbox, Button } fro
 
 class SignupForm extends React.Component {
     render() {
+        const user = this.props;
         return (
             <Form horizontal>
                 <FormGroup controlId="formHorizontalEmail">
